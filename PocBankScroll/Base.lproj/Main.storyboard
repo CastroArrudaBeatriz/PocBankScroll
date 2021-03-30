@@ -192,14 +192,29 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="36f-w3-UxN"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="kDh-kM-bwj"/>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olá, Beatriz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cH4-6y-CTs">
+                                <rect key="frame" x="16" y="61" width="154" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WB-uX-BEC">
+                                <rect key="frame" x="261" y="67" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <constraints>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="FmO-oX-Rtc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cH4-6y-CTs" secondAttribute="trailing" constant="244" id="FnX-rv-ahs"/>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="GXe-jc-A2b"/>
+                            <constraint firstItem="A9F-zr-Yld" firstAttribute="top" secondItem="cH4-6y-CTs" secondAttribute="bottom" constant="27" id="dom-GQ-Xw1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A9F-zr-Yld" secondAttribute="bottom" constant="125" id="mQi-VG-g47"/>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qrp-DW-PQc"/>
+                            <constraint firstItem="cH4-6y-CTs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="vg9-Xn-a5J"/>
+                            <constraint firstItem="cH4-6y-CTs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="z9o-79-hcm"/>
                         </constraints>
                     </view>
                 </viewController>
