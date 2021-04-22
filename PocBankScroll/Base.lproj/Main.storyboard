@@ -261,9 +261,8 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="0Co-fN-ILY"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="sDH-d1-dJH"/>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7nW-7G-ltP">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nW-7G-ltP">
                                 <rect key="frame" x="16" y="767" width="382" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Uyo-jx-hHQ">
                                         <rect key="frame" x="0.0" y="0.0" width="1656" height="110"/>
@@ -549,11 +548,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <constraints>
+                            <constraint firstItem="7nW-7G-ltP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0GD-TL-NKT"/>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="FmO-oX-Rtc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cH4-6y-CTs" secondAttribute="trailing" constant="244" id="FnX-rv-ahs"/>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="GXe-jc-A2b"/>
+                            <constraint firstItem="7nW-7G-ltP" firstAttribute="top" secondItem="A9F-zr-Yld" secondAttribute="bottom" constant="30" id="Mfb-TQ-Mnq"/>
+                            <constraint firstAttribute="bottom" secondItem="7nW-7G-ltP" secondAttribute="bottom" constant="19" id="T2n-tf-D3H"/>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="top" secondItem="cH4-6y-CTs" secondAttribute="bottom" constant="27" id="dom-GQ-Xw1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A9F-zr-Yld" secondAttribute="bottom" constant="125" id="mQi-VG-g47"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7nW-7G-ltP" secondAttribute="trailing" constant="16" id="nlN-1s-5ZR"/>
                             <constraint firstItem="A9F-zr-Yld" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qrp-DW-PQc"/>
                             <constraint firstItem="cH4-6y-CTs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="vg9-Xn-a5J"/>
                             <constraint firstItem="cH4-6y-CTs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="z9o-79-hcm"/>
